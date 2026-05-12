@@ -1,0 +1,47 @@
+GitHub/
+│
+├── data/
+│   ├── sample_images/
+│   │   ├── 01_Results/
+│   │   ├── 02_Medias/
+│   │   ├── 03_Registradas/
+│   │   ├── 04_Retificadas/
+│   │   ├── 05_Redimensionadas/
+│   │   ├── Selec_refletivo/
+│   │   ├── Selec_ritmico/
+│   │   ├── Selec_terraco/
+│   │   ├── Selec_transv&ritmic/
+│   │   └── Selec_transversal/
+│   ├── processed/
+│   │   ├── classEP_valid_posShort.csv
+│   │   ├── classEP_valid_posShort.mat
+│   │   └── dados unificados.csv
+│   └── calibration/
+│       └── georect_parameters_*.mat
+│
+├── Dependencies/
+│   ├── georect/
+│   │   ├── im_georect_2014.m
+│   │   ├── im_georect_undistorted.m
+│   │   ├── undistort_image_2010.m
+│   │   ├── camera_model.m
+│   │   └── colli.m
+│   │
+│   ├── register/
+│   │   ├── f_registerImagesRet.m
+│   │   ├── f_registerImagesMed3.m
+│   │   └── ... 
+│
+├── scripts/
+│   ├── 00_IMAGE_REG_TIMEX.m
+│   ├── 01_REG_AVERAGE_IMGS.m
+│   ├── 02_RECTIFICATION.m
+│   ├── 03_IMG_CLASSIFICATION.m
+│   ├── 04_VALID_IMGS_CLASSIFICTION.m
+│   ├── 05_UPDATE_CLASSIFICATION.m
+│   ├── 06_REDIM_IMGS.py
+│   ├── 07_IMGS_SELECT_BY_CLASS.py
+│   ├── 08_RANDOM_SELECT.py
+│
+├── requirements.txt
+└── README.md
