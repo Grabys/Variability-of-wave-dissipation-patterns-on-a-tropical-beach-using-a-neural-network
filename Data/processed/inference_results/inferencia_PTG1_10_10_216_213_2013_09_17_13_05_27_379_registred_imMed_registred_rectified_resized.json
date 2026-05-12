@@ -1,0 +1,17 @@
+{
+    "inference_id": "5cb2fe98-0227-49c8-9b5b-5dec31952ed7",
+    "time": 0.36142807100077334,
+    "image": {
+        "width": 640,
+        "height": 640
+    },
+    "predictions": [
+        {
+            "class": "Transversal",
+            "class_id": 1,
+            "confidence": 0.995
+        }
+    ],
+    "top": "Transversal",
+    "confidence": 0.995
+}

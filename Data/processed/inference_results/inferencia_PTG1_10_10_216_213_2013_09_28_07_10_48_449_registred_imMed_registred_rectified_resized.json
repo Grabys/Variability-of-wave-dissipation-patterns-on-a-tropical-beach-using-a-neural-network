@@ -1,0 +1,17 @@
+{
+    "inference_id": "598453d2-daff-42d6-b535-e12be6353faf",
+    "time": 0.412926379000055,
+    "image": {
+        "width": 640,
+        "height": 640
+    },
+    "predictions": [
+        {
+            "class": "Ritmico",
+            "class_id": 2,
+            "confidence": 0.9758
+        }
+    ],
+    "top": "Ritmico",
+    "confidence": 0.9758
+}
